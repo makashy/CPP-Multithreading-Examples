@@ -20,7 +20,7 @@ int main()
     // 2. Define an array averages
     float averages[100];
 
-    // 3. Define a stateful lambda that calculate an average over random 
+    // 3. Define a stateful lambda that calculates an average over random 
     // numbers. Then pass it to threads. Lambda should be defined mutable and  
     // elements of the averages array should be passed by reference.
     for (int i{0}; i < kNumberOfThreads; ++i)
