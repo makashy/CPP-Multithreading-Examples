@@ -1,6 +1,6 @@
 # C++ Multithreading Examples
 
-This is a series of examples from simple to complex...
+This is a collection of examples for multithreading in C++. 
 
 ## 1. Thread <thread>
 
