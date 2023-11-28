@@ -2,7 +2,7 @@
 
 This is a collection of examples for multithreading in C++. 
 
-## 1. Thread <thread>
+## 1. Threads
 
 | <p>Example<p>number | <p>C++<p>Version |  Description |
 |:-----:|:---------------:|:---------------:|
@@ -16,7 +16,9 @@ This is a collection of examples for multithreading in C++.
 | <p>Example<p>number | <p>C++<p>Version |  Description |
 |:-----:|:---------------:|:---------------:|
 | Exp 2.1  | <sup>`C++17`</sup> | Check whether a type can be atomic or not (is_trivially_copyable_v, is_always_lock_free) |
-| Exp 2.2  | <sup>`C++11`</sup> | Add to a common counter (atomic) from different threads and record the order of adding to the counter based on the thread numbers (using atomic\<T> and fetch_add()) |
+| Exp 2.2  | <sup>`C++11`</sup> | Add to a common counter (atomic) from different threads and record the order of adding to the counter based on the thread numbers (using atomic\<T>, fetch_add(), atomic_flag and spinlock method) |
+
+## 3. Mutual Exclusion
 
 
 
