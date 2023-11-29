@@ -20,6 +20,9 @@ This is a collection of examples for multithreading in C++.
 
 ## 3. Mutual Exclusion
 
+| <p>Example<p>number | <p>C++<p>Version |  Description |
+|:-----:|:---------------:|:---------------:|
+| Exp 3.1  | <sup>`C++11`</sup> | Call a function from multiple threads only once (using call_once() and once_flag) |
 
 
 
