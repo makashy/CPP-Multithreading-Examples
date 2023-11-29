@@ -23,6 +23,8 @@ This is a collection of examples for multithreading in C++.
 | <p>Example<p>number | <p>C++<p>Version |  Description |
 |:-----:|:---------------:|:---------------:|
 | Exp 3.1  | <sup>`C++11`</sup> | Call a function from multiple threads only once (using call_once() and once_flag) |
+| Exp 3.2  | <sup>`C++11`</sup> | Print messages from multiple threads on a terminal without interference of messages (using mutex() and guard_lock() and ref()) |
+
 
 
 
